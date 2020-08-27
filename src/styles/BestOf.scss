@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap');
+
+$maastricht-blue : #011627;
+$anit-flash-white: #EFF1F3;
+$japanese-indigo: #23395B;
+$purple-navi: #3D5A80;
+$baby-powder: #FCFCFC;
+
+.bestof-header{
+    background-color: $maastricht-blue;
+    min-height: 30vh;
+    border-bottom-left-radius: 3em;
+}
+
+
+.back, .year{
+    color: $anit-flash-white;
+    font-size: 1em;
+ 
+    a{
+        text-decoration: none;
+        color: $baby-powder;
+        &:hover{
+            color: $baby-powder;
+        }
+    } 
+}
+
+
+.bestof-headline{
+    font-size: 1.2em;  
+}
+
+.bestyear-headline{
+    color: $baby-powder;
+}
+
+.div-year{
+    border: 1px solid $japanese-indigo;
+    background-color: $japanese-indigo;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.year{
+    margin-bottom:0;
+}
+
+
+
+.best-yt-link, .best-yt-link:hover{
+    color: $baby-powder;
+}
+
+
+.yt-cover{
+    border-radius: 0.4em;
+    height: 80px;
+}
+
+
+a .best-song-title{
+    text-decoration: none;
+    color: $baby-powder;
+  }
+  .best-song-title{
+    margin-bottom: 0;
+    font-size: 0.8em;
+  }
+  
+
+  .best-collection{
+      margin-bottom: 60px;
+  }

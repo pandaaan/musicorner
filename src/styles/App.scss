@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap');
+
+$maastricht-blue : #011627;
+$anit-flash-white: #EFF1F3;
+$japanese-indigo: #23395B;
+$purple-navi: #3D5A80;
+$baby-powder: #FCFCFC;
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.app-header {
+  background-color: $maastricht-blue;
+  min-height: 45vh;
+  border-bottom-left-radius: 3em;
+
+}
+
+a:hover{
+  text-decoration: none;
+}
+.yt-link, .yt-link:hover{
+  text-decoration: none;
+  color: $maastricht-blue;
+}
+  
+p.logo-title{
+  color: $baby-powder;
+  font-size: 1.3em;
+  margin-top: 20px;
+}
+
+.sub-headline{
+  color: $baby-powder;
+  font-size: 0.8em;
+}
+.song-a-day{
+  position: absolute;
+  top: 17%;
+  right: 30px;
+}
+
+.card{
+  width: 15rem;
+  background-color: $japanese-indigo;
+  border-radius: 1.5em;
+  border: none;
+}
+
+
+.song-a-day-img{
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+
+}
+
+.song-a-day-title, .song-a-day-artist{
+  color: $baby-powder;
+  margin-bottom: 5px;
+}
+
+.song-a-day-artist{
+  opacity: 0.6;
+  font-size: 0.8em;
+}
+
+
+.play-button{
+  color: $baby-powder;
+  opacity: 0.5;
+  font-size: 1.5em;
+}
+
+.collection{
+  position: relative;
+  top: 110px;
+  margin-bottom: 60px;
+}
+
+
+.month{
+  font-size: 0.8em;
+}
+
+
+.song-img{
+  height: 80px;
+  width: 80px;
+  
+}
+
+
+.yt-cover{
+  object-fit: cover ;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.4em;
+}
+
+.song-info, .song-a-day{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+a .song-title{
+  text-decoration: none;
+  color: $maastricht-blue;
+}
+.song-title, .song-date{
+  margin-bottom: 0;
+  font-size: 0.8em;
+}
+
+.song-artist{
+  color: #999999;
+  margin-bottom: 0;
+  font-size: 0.7em;
+}
+
+
+
+.footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: $maastricht-blue;
+    border-top-right-radius: 1.5em;
+    border-top-left-radius: 1.5em;
+  
+}
+
+
+a.a-menu{
+  color: $anit-flash-white; 
+  opacity: 0.5;
+}
+
+.navi-icon a.selected,
+.navi-icon a.selected:hover {
+  opacity: 1;
+}
+
+
+
+
+a.a-menu:hover{
+  opacity: 1;
+  color: $anit-flash-white;
+}
+
+
+a.plus{
+  font-size: 2em;
+  color: $purple-navi;
+}
+
+
+
+a .btn.btn-primary{
+  background-color: $maastricht-blue;
+  border:none;
+  height: 20px;
+}
